@@ -90,3 +90,31 @@ var months = [
  else{
     alert("It's PM");
  }
+  document.write("Alert Message");
+
+//   Question 8 
+
+
+  document.write( "<h1>" + "Question 8" + "<br>"  + "</h1>"); 
+
+ var laterDate = new Date(2020 , 11, 31 );
+
+ document.write("Last Date:" + laterDate);
+
+
+//  Question 9 
+
+ document.write( "<h1>" + "Question 9" + "<br>"  + "</h1>"); 
+
+ var ramadanDate = new Date(2015, 5, 18);
+ var daysPassed = date.getTime() - ramadanDate.getTime();
+
+ var daysBtw = Math.floor(daysPassed / 1000 * 60 * 60 * 24);
+
+ alert(daysBtw + " days have been passed since 1st Ramadan,2015");
+ document.write("Alert Message");
+
+
+//  Question 10 
+
+ 
