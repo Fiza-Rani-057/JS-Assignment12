@@ -57,4 +57,11 @@ var months = [
 
  document.write( "<h1>" + "Question 5" + "<br>"  + "</h1>");
 
- 
+ var currentDays = date.getDate();
+  
+ if(currentDays <= 15){
+    document.write("First Fifteen days of months");
+ }
+ else{
+    document.write("Last Days of Months");
+ }
