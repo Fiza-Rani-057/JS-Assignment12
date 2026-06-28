@@ -65,3 +65,17 @@ var months = [
  else{
     document.write("Last Days of Months");
  }
+
+//  Question 6 
+
+ document.write( "<h1>" + "Question 6" + "<br>"  + "</h1>");
+
+ var miliseconds = date.getTime();
+ var  minutes = miliseconds / (1000 *6);
+
+ document.write("Current Date:" + date + "<br>");
+ document.write("Elapsed Miliseconds since January 1, 1970" + miliseconds + "<br>");
+ document.write("Elapsed Minutes since January 1, 1970" + minutes + "<br>" );
+
+
+//  Question 7 
