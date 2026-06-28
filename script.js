@@ -130,6 +130,12 @@ var months = [
 
 //   Question 11 
  
-  document.write( "<h1>" + "Question 11" + "<br>"  + "</h1>");  
-  
+  document.write( "<h1>" + "Question 11" + "<br>"  + "</h1>"); 
+
+  var currentDate = new Date();
+  var now = currentDate.getHours()
+  currentDate.setHours(now - 1);
+
+ document.write(currentDate + "<br>");
+ document.write("1 hour ago it was " + currentDate);
 
