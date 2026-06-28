@@ -139,3 +139,8 @@ var months = [
  document.write(currentDate + "<br>");
  document.write("1 hour ago it was " + currentDate);
 
+
+//  Question 12 
+ 
+  document.write( "<h1>" + "Question 12" + "<br>"  + "</h1>"); 
+
