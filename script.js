@@ -79,3 +79,14 @@ var months = [
 
 
 //  Question 7 
+
+ document.write( "<h1>" + "Question 7" + "<br>"  + "</h1>"); 
+
+ var hours = date.getHours();
+ 
+ if(hours < 12){
+    alert ("It's AM");
+ }
+ else{
+    alert("It's PM");
+ }
