@@ -117,4 +117,19 @@ var months = [
 
 //  Question 10 
 
+  document.write( "<h1>" + "Question 10" + "<br>"  + "</h1>");  
+
+  var begining = new Date(2015, 0, 1);
+  var seconds = begining.getTime()
+  var calculate = seconds / 1000;
+
+
+  document.write("Reference date" + begining + "<br>");
+  document.write( calculate + " seconds has passed since bigining of 2015");
+
+
+//   Question 11 
  
+  document.write( "<h1>" + "Question 11" + "<br>"  + "</h1>");  
+  
+
